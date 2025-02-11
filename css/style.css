@@ -1,0 +1,102 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass';
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+    max-width: 375px;
+    height: fit-content;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.text h1{
+ color: #fff;
+ text-align: left;
+ font-weight: 700;
+ font-size: 40px;
+
+}
+
+.estrela {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; 
+    height: 50px;
+}
+
+.estrela::before {
+    content: "";
+    position: absolute;
+    width: 50px; 
+    height: 50px;
+    background-color:hsl(213, 19%, 18%);
+    border-radius: 50%;
+
+}
+
+.estrela img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    z-index: 1; 
+}
+
+.text p{
+    color: hsl(217, 12%, 63%);
+    font-size: 17px;
+
+}
+
+
+
+.rating button{
+
+    margin: 5px;
+    padding: 5px;
+    background-color: hsl(213, 19%, 18%) ;
+    color: hsl(217, 12%, 63%);
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.concluir{
+    
+    text-align: center;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(216, 12%, 8%);
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.rating button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.rating button:focus{
+    background-color:hsl(25, 97%, 53%) ;
+    color: #000;
+}
