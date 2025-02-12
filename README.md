@@ -14,8 +14,15 @@
 - Flexbox
 - Fluxo mobile-first
 
+## Melhorias 
+Ainda há algumas coisas que preciso melhorar no projeto, especialmente em relação à responsividade, nas telas menores os botões ficam um pouco desproporcionais.
+- Ajustar o tamanho dos botões para que eles se encaixem melhor na tela do celular e não fiquem sobrepondo outros elementos.
+- Usar media queries no CSS para garantir que os estilos mudem conforme o tamanho da tela.
+- Ajustar o espaçamento entre os botões para melhorar a usabilidade e deixar tudo mais organizado.
+
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/e74d8e4d-9436-4bcb-9039-ea2e8339d5d4) ![image](https://github.com/user-attachments/assets/8df5cad2-c1e7-4aba-96be-6c3bcfa5d818)
 
 ## Links
 - LIVE: https://senabytes.github.io/Avaliacao_FrontEndMentor/
+
