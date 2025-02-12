@@ -1,0 +1,115 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color:#000;
+    font-family: 'Overpass';
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+    max-width: 370px;
+    height: auto;
+    padding: 2rem;
+    border-radius: 20px;
+    align-items: center;
+    
+    
+}
+
+.text h1{
+ color: #fff;
+ text-align: left;
+ font-weight: 700;
+ font-size: 30px;
+
+}
+
+.estrela {
+    align-self: flex-start;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; 
+    height: 50px;
+}
+
+.estrela::before {
+    content: "";
+    position: absolute;
+    width: 50px; 
+    height: 50px;
+    background-color:hsl(213, 19%, 18%);
+    border-radius: 50%;
+
+}
+
+.estrela img {
+    width: 20px;
+    height: 20px;
+    z-index: 1; 
+    
+}
+
+.text p{
+    color: hsl(217, 12%, 63%);
+    font-size: 17px;
+
+}
+
+
+
+.rating button{
+
+    margin: 0.5rem;
+    padding: 1rem;
+    background-color: hsl(213, 19%, 18%) ;
+    color: hsl(217, 12%, 63%);
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.concluir{
+    
+    text-align: center;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(216, 12%, 8%);
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 3rem;
+    transition: 0.3s ease;
+ 
+}
+
+.concluir:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.rating button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.rating button:focus{
+    background-color:hsl(25, 97%, 53%) ;
+    color: #000;
+}
+
