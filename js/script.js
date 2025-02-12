@@ -1,9 +1,10 @@
-let notaSelecionada = null;
+let notaSelecionada = null; //recebe a nota do user
 
 function nota(valor, elemento) {
     notaSelecionada = valor; // Salva a nota escolhida pelo user
 }
 
+//botao de confirmação de nota
 function confirmar() {
     if (notaSelecionada !== null) {
         localStorage.setItem("nota", notaSelecionada); // Salva a nota no localStorage
